@@ -6,6 +6,11 @@ const PORT = 3000;
 
 app.use(express.json());
 
+
+app.get("/", ()=> {
+  res.send("welcome to my server")
+})
+
 app.use(
   cors({
     origin: ["http://localhost:5173", "http://localhost:5174"],
