@@ -19,7 +19,6 @@ router.post("/registerinvigilator", registerInvigilator);
 router.put("/update", updateUser); 
 router.delete("/delete", deleteUser);
 router.post("/saveqrcode", saveQRCode);
-
 module.exports = router;
 
 
